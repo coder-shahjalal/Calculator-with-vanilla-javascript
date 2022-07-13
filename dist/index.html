@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,75 +7,140 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="/dist/output.css" />
   </head>
-  <body ">
-    <section class=" bg-green-50  w-fit mx-auto p-4 mt-10 rounded-md border-2">
+
+  <body>
+    <section class="bg-green-50 w-fit mx-auto p-4 mt-10 rounded-md border-2">
       <div>
         <h3>calculator</h3>
-        <div id="display-area" class="p-10 w-ful bg-gray-50  border-2 text-right font-bold text-5xl"> <h2>0</h2> </div>
+        <div
+          class="p-10 w-ful bg-gray-50 border-2 text-right font-bold text-1xl"
+        >
+          <p id="display-area"></p>
+        </div>
       </div>
       <div class="grid grid-cols-4">
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked ">
-          <h4>1</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked ">
-          <h4>2</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked ">
-          <h4>3</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>4</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>5</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>6</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>7</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>8</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>9</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>10</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>11</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>12</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>13</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>14</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>15</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>16</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>16</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>16</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>16</h4>
-        </div>
-        <div class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out  hover:cursor-pointer text-center font-semibold text-gray-900 clicked">
-          <h4>=</h4>
-        </div>
-
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          %
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          C
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          <=
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          /
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          7
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          8
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          9
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          X
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          4
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          5
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          6
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          -
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          1
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          2
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          3
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          +
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          +/-
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          0
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          .
+        </button>
+        <button
+          onclick="jsonColl()"
+          class="m-1 border-2 border-blue-200 rounded hover:border-blue-600 py-4 px-7 bg-blue-100 hover:bg-blue-400 hover:animate-pulse transition ease-in-out hover:cursor-pointer text-center font-semibold text-gray-900 clicked"
+        >
+          =
+        </button>
       </div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>
